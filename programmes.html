@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>about | Selloh Ate Craft and Art Bali</title>
     <meta name="description" content="belajar Art dan craft di denpasar . ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--start css-->
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="font/css/all.min.css">
     <!--end css-->
 </head>
 <body>
-    <img class="logo" src="gambar/selloh_ate_craft_and_art_bali.jpg" alt="logo Selloh Ate Art and Craft Bali">
+        <p class="header-panel">
+                <img class="logo" src="gambar/selloh_ate_craft_and_art_bali.jpg" alt="logo Selloh Ate Art and Craft Bali"> 
+            </p>
+            <h1 class="header-panel">Selloh Ate Craft and Art Bali</h1>
     <menu>
             <ul>
                 <li><a href="index.html">Home</a><li>
@@ -31,24 +35,93 @@
         <h2>Programmes</h2>
         <h3>Program Selloh Ate Art and Craft Bali membantu mengembangkan bakat anak anda </h3>
     </div>
-    <ul>
-        <li><a href="membatik.html">Membatik</a></li>
-        <li><a href="decoupage.html">decoupage</a></li>
-        <li><a href="kelasmemasak.html">Kelas Memasak</a></li>
-        <li><a href="berkebun.html">Berkebun</a></li>
-        <li><a href="melukis.html">Melukis</a></li>
-    </ul>
-    <div class="clock-large">
-        <a href="#" class="far fa-clock"></a>
-    </div>
-    
+    <h2 class="subtitle centered-text">Programmes dari Selloh Ate Craft and Art Bali adalah</h2>
+<div class="container">
+        <button class="accordion">Membatik</button>
+        <div class="panel">
+            <img src="gambar/membatik1.jpg" alt="">
+          <p>Membatik merupakan suatu kreatifitas menggambar di atas kain dengan menuliskan malam dan kemudian pengolahannya diproses dengan cara merebus, mencuci dan menjemur.</p>
+        </div>
+        
+        <button class="accordion">Melukis</button>
+        <div class="panel">
+            <img src="gambar/kidspaint.jpg" alt="">
+          <p>Media yang digunakan untuk melukis adalah tas, kaus, dompet, tempat pensil dan lain-lain. Setiap media berbahan dasar dari kain kanvas, kain blacu dan kain kaus. Pada media akan dijadikan wadah kreatifitas anda dengan menggunakan alat kuas  dan cat acrilic. Anda dapat berkreasi dengan bebas</p>
+        </div>
+        
+        <button class="accordion">decoupage</button>
+        <div class="panel">
+            <img src="gambar/decoupage.jpg" alt="">
+          <p>Decoupage merupakan seni mendekorasi objek dengan menempelkan potongan tisu bergambar di atasnya. Media yang digunakan adalah tas, baju kaos, hiasan dindning, dompet, tempat pensil, sepatu dan lain-lain.Median berbahan kain kanvas, kain blacu, kain kaus, kayu, kaca, wadah plastik dan bahan anyaman pandan.</p>
+        </div>
+        <button class="accordion">kelas Memasak</button>
+        <div class="panel">
+            <img src="gambar/baking.jpg" alt="">
+          <p>Kelas memasak merupakan suatu kegiatan kreatifitas mengolah naham pangan yang akan dijadikan makanan. Kelas memasak khusus untuk usia 6 tahun sampai 12 tahun. Tuuuannya dadalah utuk melatik kretifitas anak-anak dalam memasak.</p>
+        </div>
+        <button class="accordion">Berkebun</button>
+        <div class="panel">
+            <img src="gambar/berkebun1.jpg" alt="">
+          <p>Kebun dalam pengertian di Indonesia adalah sebidang lahan, biasanya di tempat terbuka, yang mendapat perlakuan tertentu oleh manusia, khususnya sebagai tempat tumbuh tanaman. Pengertian kebun bersifat umum karena lahan yang ditumbuhi tumbuhan secara liar juga dapat disebut kebun, asalkan berada di wilayah permukiman. "Wikipedia"</p>
+        </div>
+</div>
 
-    <div class="open">
-        <h3>Opening Hours</h3>
-        <h4>Come Visit</h4>
-        <p>Mon-Fri 8am-5pm</p>
-        <p>Sat 10am-2pm</p>
-        <p>Sun Closed</p>
-    </div>
+
+
+<!-- Site footer -->
+
+<footer class="container">
+        <div class="site-footer">
+          <div class="half">
+            <h6>About</h6>
+            <p class="text-justify">seloh ate <i>merupakan arti kata </i> perbuatan baik atau dengan hati yang baik.</p>
+          </div>
+      
+          <div class="half">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="https://www.facebook.com/dani.solin" class="fab fa-facebook-f"></a><li>
+                  <li><a href="" class="fab fa-instagram"></a></li>
+                  <li><a href="https://api.whatsapp.com/send?phone=6289664703693" class="fab fa-whatsapp"></a></li>
+                  <li><a href="https://goo.gl/maps/VGjhG7rYMtN2K2Uy7" class="fas fa-map-marker-alt"></a></li>
+            </ul>
+          </div>
+          <hr>
+          <div>
+              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+                <a href="#">Scanfcode</a>.
+              </p>
+          </div>
+        </div>
+      </footer>
+      <div class="clock-large">
+            <a href="#" class="far fa-clock clock-icon"></a>
+        </div>
+    
+        <div class="open">
+            <h1>Opening Hours</h1>
+            <h2>Come Visit</h2>
+            <h3>Mon-Fri 8am-5pm</h3>
+            <h3>Sat 10am-2pm</h3>
+            <h3>Sun Closed</h3>
+        </div>
 </body>
 </html>
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+        });
+    }
+</script>

@@ -12,7 +12,10 @@
     <!--end css-->
 </head>
 <body>
-    <img class="logo" src="gambar/selloh_ate_craft_and_art_bali.jpg" alt="logo Selloh Ate Art and Craft Bali">
+    <p class="header-panel">
+        <img class="logo" src="gambar/selloh_ate_craft_and_art_bali.jpg" alt="logo Selloh Ate Art and Craft Bali"> 
+    </p>
+    <h1 class="header-panel">Selloh Ate Craft and Art Bali</h1>
     <menu>
             <ul>
                 <li><a href="index.html">Home</a><li>
@@ -27,49 +30,84 @@
                 <li><a href="https://goo.gl/maps/VGjhG7rYMtN2K2Uy7" class="fas fa-map-marker-alt"></a></li>
             </ul>
           </menu>
-    <h2>Contact</h2>
-    <h3>Email: triwati.solin.ts@gmail.com</h3>
-    <h4>Jalan Badak Agung III No.12 C Denpasar</h4>
-    <h5>089664703693</h5>
-    <h3>Contact Form</h3>
+    <center class="container">
+      <img src="gambar/kuntak2.png" alt="">
+    </center>
 
-<div class="container half">
-  <form action="/action_page.php">
-    <label class="display-block" for="fname">First Name</label>
-    <input class="display-block" type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="container">
+        <h2>Contact</h2>
+        <h3>Email: triwati.solin.ts@gmail.com</h3>
+        <h4>Jalan Badak Agung III No.12 C Denpasar</h4>
+        <h5>089664703693</h5>
+        <h3>Contact Form</h3>
+    </div>
+    
+  <div class="container">
+      <div class="half">
+          <form action="/action_page.php">
+            <label class="display-block" for="fname">First Name</label>
+            <input class="display-block" type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label class="display-block" for="lname">Last Name</label>
+            <input class="display-block" type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label class="display-block" for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label class="display-block" for="subject">Subject</label>
+            <textarea class="display-block" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input class="display-block" type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="half">
+            <title>google map</title>
+            <h6>Alamat Kami</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.2678684613597!2d115.22733961417306!3d-8.666055493773138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2408c6f9a1449%3A0x242ffb0f778c5f16!2sJl.%20Badak%20Agung%20III%20No.12%2C%20Sumerta%20Kelod%2C%20Kec.%20Denpasar%20Tim.%2C%20Kota%20Denpasar%2C%20Bali%2080234!5e0!3m2!1sid!2sid!4v1572578410783!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+        </div>
+  </div>
 
-    <label class="display-block" for="lname">Last Name</label>
-    <input class="display-block" type="text" id="lname" name="lastname" placeholder="Your last name..">
+<!-- Site footer -->
 
-    <label class="display-block" for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+<footer class="container">
+  <div class="site-footer">
+    <div class="half">
+      <h6>About</h6>
+      <p class="text-justify">seloh ate <i>merupakan arti kata </i> perbuatan baik atau dengan hati yang baik.</p>
+    </div>
 
-    <label class="display-block" for="subject">Subject</label>
-    <textarea class="display-block" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input class="display-block" type="submit" value="Submit">
-  </form>
-</div>
-<div class="half">
-    <title>google map</title>
-    <h6>Alamat Kami</h6>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.2678684613597!2d115.22733961417306!3d-8.666055493773138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2408c6f9a1449%3A0x242ffb0f778c5f16!2sJl.%20Badak%20Agung%20III%20No.12%2C%20Sumerta%20Kelod%2C%20Kec.%20Denpasar%20Tim.%2C%20Kota%20Denpasar%2C%20Bali%2080234!5e0!3m2!1sid!2sid!4v1572578410783!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
-</div>
+    <div class="half">
+      <h6>Quick Links</h6>
+      <ul class="footer-links">
+        <li><a href="https://www.facebook.com/dani.solin" class="fab fa-facebook-f"></a><li>
+            <li><a href="" class="fab fa-instagram"></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=6289664703693" class="fab fa-whatsapp"></a></li>
+            <li><a href="https://goo.gl/maps/VGjhG7rYMtN2K2Uy7" class="fas fa-map-marker-alt"></a></li>
+      </ul>
+    </div>
+    <hr>
+    <div>
+        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+          <a href="#">Scanfcode</a>.
+        </p>
+    </div>
+  </div>
+</footer>
 
 <div class="clock-large">
-  <a href="#" class="far fa-clock"></a>
+    <a href="#" class="far fa-clock clock-icon"></a>
 </div>
 
 <div class="open">
-  <h3>Opening Hours</h3>
-  <h4>Come Visit</h4>
-  <p>Mon-Fri 8am-5pm</p>
-  <p>Sat 10am-2pm</p>
-  <p>Sun Closed</p>
+    <h1>Opening Hours</h1>
+    <h2>Come Visit</h2>
+    <h3>Mon-Fri 8am-5pm</h3>
+    <h3>Sat 10am-2pm</h3>
+    <h3>Sun Closed</h3>
 </div>
 
 </body>
